@@ -1,0 +1,9 @@
+# Environnement virtuel
+.venv/
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+
+# Fichiers temporaires des notebooks
+.ipynb_checkpoints/
