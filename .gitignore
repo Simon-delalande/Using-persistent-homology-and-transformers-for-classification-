@@ -1,9 +1,16 @@
-# Environnement virtuel
+# Virtual environment
 .venv/
 
-# Fichiers temporaires Python
+# Temporary Python files
 __pycache__/
 *.pyc
 
-# Fichiers temporaires des notebooks
+# Temporary notebook files
 .ipynb_checkpoints/
+
+# Recomputable diagram cache for the comparison
+results/baseline/diagrams.npz
+
+# Trained attention checkpoint and fitted preprocessing state
+results/attention/model.keras
+results/attention/preprocessor.npz
